@@ -1,0 +1,122 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./image/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+  }
+  .container{
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.048);
+  
+    border: 2px solid #FAA706;
+    backdrop-filter: blur(20px);
+    box-shadow: 0, 0, 0, 0.1;
+    /* color: #191F31; */
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #FAA706;
+  }
+  input{
+    width: 60%;
+    height: 100%;
+    background-color:#faa9068a;
+    border: none;
+    outline-color: #FAA706;
+    border: 1px solid #FAA706 ;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #ffd071;
+    padding: 5px 5px 5px 27px;
+
+  }
+  input::placeholder{
+    color: #FAA706;
+  }
+  .time-table{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:#FAA706 ;
+    padding-top: 10px;
+  }
+  button{
+    width: 60px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color:#faa9066e;
+    color: #FAA706;
+    border: 0.5px solid #FAA706;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+
+  @media screen and (max-width: 450px) {
+
+ h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #FAA706;
+  }
+  input{
+    width: 60%;
+    height: 100%;
+    background-color:#faa9068e;
+    border: none;
+    outline-color: #FAA706;
+    border: 1px solid #FAA706 ;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #FAA706;
+    padding: 5px 5px 5px 27px;
+
+  }
+  }
+
+  @media screen and (max-width: 350px){
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: rgb(0, 238, 255);
+      }
+      input{
+        width: 60%;
+        height: 100%;
+        background-color:rgba(0, 238, 255, 0.342);
+        border: none;
+        outline-color: rgb(0, 238, 255);
+        border: 1px solid rgb(0, 238, 255) ;
+        border-radius: 15px;
+        font-size: 14px;
+        color: rgb(0, 255, 242);
+        padding: 5px 5px 5px 27px;
+    
+      }
+      .time-table{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color:rgb(0, 255, 242) ;
+        padding-top: 10px;
+      }
+      button{
+        width: 40px;
+        height: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        background-color:rgba(0, 238, 255, 0.342);
+        color: rgb(0, 255, 242);
+        border: 0.5px solid rgb(0, 255, 242);
+        border-radius: 8px;
+        margin-left: 5px;
+      }
+    
+  }
